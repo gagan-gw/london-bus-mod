@@ -11,11 +11,11 @@ import net.minecraft.util.Identifier;
 public class ModEntities {
   public static final EntityType<LondonBusEntity> BUS = Registry.register(
       Registries.ENTITY_TYPE,
-      Identifier.of("londonbus", "bus"),
+      Identifier.of("london-bus", "bus"),
       EntityType.Builder
           .create(LondonBusEntity::new, SpawnGroup.CREATURE)
           .dimensions(3.0f, 4.0f).build(
-              RegistryKey.of(RegistryKeys.ENTITY_TYPE, Identifier.of("londonbus", "bus"))
+              RegistryKey.of(RegistryKeys.ENTITY_TYPE, Identifier.of("london-bus", "bus"))
           )
   );
 

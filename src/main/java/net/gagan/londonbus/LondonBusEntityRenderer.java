@@ -17,6 +17,6 @@ public class LondonBusEntityRenderer extends MobEntityRenderer<LondonBusEntity, 
 
   @Override
   public Identifier getTexture(LivingEntityRenderState state) {
-    return Identifier.of("londonbus", "textures/entity/bus.png");
+    return Identifier.of("london-bus", "bus.png");
   }
 }

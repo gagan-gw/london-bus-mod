@@ -20,5 +20,6 @@ public class LondonBus implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModEntities.registerEntities();
 	}
 }

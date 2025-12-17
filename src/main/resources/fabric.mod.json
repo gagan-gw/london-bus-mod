@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "london-bus",
+	"version": "${version}",
+	"name": "London Bus",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/london-bus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gagan.londonbus.LondonBus"
+		],
+		"fabric-datagen": [
+			"net.gagan.londonbus.LondonBusDataGenerator"
+		]
+	},
+	"mixins": [
+		"london-bus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

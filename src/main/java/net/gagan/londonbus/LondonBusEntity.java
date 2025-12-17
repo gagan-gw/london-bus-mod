@@ -30,4 +30,7 @@ public class LondonBusEntity extends AbstractHorseEntity {
     }
     return super.getControllingPassenger();
   }
+
+  @Override
+  protected void initGoals() {}
 }
